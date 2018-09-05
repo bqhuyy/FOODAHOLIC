@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:id="@+id/rv_RelativeLayout">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:id="@+id/rv_foodImage"
+        android:src="@drawable/add_image"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/rv_foodImage"
+        android:layout_marginLeft="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="Restaurant Name"
+            android:layout_toRightOf="@+id/rv_foodImage"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:id="@+id/rv_restaurantName"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusable="true"
+            android:ellipsize="marquee"
+            android:focusableInTouchMode="true"
+            android:scrollHorizontally="true"
+            android:singleLine="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="Address"
+            android:layout_toRightOf="@+id/rv_foodImage"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:id="@+id/rv_restaurantAddress"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusable="true"
+            android:ellipsize="marquee"
+            android:focusableInTouchMode="true"
+            android:scrollHorizontally="true"
+            android:singleLine="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="Food Type"
+            android:layout_toRightOf="@+id/rv_foodImage"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:id="@+id/rv_foodType"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusable="true"
+            android:ellipsize="marquee"
+            android:focusableInTouchMode="true"
+            android:scrollHorizontally="true"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

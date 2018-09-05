@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.cs426.naivee.foodaholic.MapsActivity" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/white_border"
+        android:id="@+id/maps_r_layout_0"
+        android:elevation="10dp">
+        <RelativeLayout
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/maps_r_layout_1">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/list_menu"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/maps_ic_menu"
+                android:onClick="listViewOnClick"/>
+        </RelativeLayout>
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/maps_r_layout_1"
+            android:layout_centerVertical="true"
+            android:textSize="17sp"
+            android:scrollHorizontally="true"
+            android:textColor="#000000"
+            android:background="@null"
+            android:layout_marginLeft="10dp"
+            android:hint="Search here"
+            android:inputType="text"
+            android:id="@+id/maps_input_search"
+            android:imeOptions="actionSearch"
+            android:layout_marginRight="50dp"/>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_keyboard_voice_black"
+            android:onClick="getSpeechInput"/>
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ar"
+        android:layout_gravity="bottom|center"
+        android:id="@+id/maps_ic_ar"
+        android:layout_marginBottom="5dp"
+        android:onClick="goToCameraBearing"/>
+</FrameLayout>

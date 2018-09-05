@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/res_info_item_edit"
+        android:title="Edit"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/res_info_item_call"
+        android:title="Call"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/res_info_item_website"
+        android:title="Go to website"
+        app:showAsAction="never"></item>
+</menu>
