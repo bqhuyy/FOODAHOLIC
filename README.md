@@ -1,4 +1,4 @@
-# Group final mobile development project - Foodaholic
+# Foodaholic
 Created by Dinh-Hieu Hoang and Quoc-Huy Bui.
 
 App icon designed by Anh-Kiet Nguyen
