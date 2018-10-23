@@ -1,4 +1,8 @@
 # Foodaholic
+CS426: Mobile Device Application Development
+
+Assoc. Prof. Minh-Triet Tran, HCMC University of Science
+
 Created by Dinh-Hieu Hoang and Quoc-Huy Bui.
 
 App icon designed by Anh-Kiet Nguyen
