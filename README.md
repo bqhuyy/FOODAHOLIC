@@ -5,9 +5,9 @@ Teacher: Assoc. Prof. Minh-Triet Tran, HCMC University of Science
 
 Created by Dinh-Hieu Hoang and Quoc-Huy Bui.
 
-App icon designed by Anh-Kiet Nguyen
+Application icon designed by Anh-Kiet Nguyen
 
-Foodaholic is an android application using Google Maps API V2. Its main purposes are storing a list of restaurants, finding the direction to a restaurants using maps and camera bearing.
+Foodaholic is an android application using Google Maps API V2. Its main purposes are storing a list of restaurants, and finding the direction to a restaurant using map and camera bearing.
 
 References for list of icons:  https://www.flaticon.com/
 
