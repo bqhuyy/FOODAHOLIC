@@ -7,7 +7,7 @@ Created by Dinh-Hieu Hoang and Quoc-Huy Bui.
 
 Application icon designed by Anh-Kiet Nguyen
 
-Foodaholic is an android application using Google Maps API V2. Its main purposes are storing a list of restaurants, and finding the direction to a restaurant using map and camera bearing.
+Foodaholic is an android application using Google Maps API V2. Its main purposes are storing a list of restaurants and finding the direction to a restaurant using map or camera bearing.
 
 References for list of icons:  https://www.flaticon.com/
 
